@@ -1,0 +1,30 @@
+.title {
+    font-family: Helvetica;
+    font-size: 40px;
+}
+
+.listitem {
+    list-style-type: none;
+    text-align: center;
+}
+
+.recipe {
+    font-family: Helvetica;
+    color: #0D0D0D;
+    font-size: 30px;
+}
+
+.button {
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    background: #0BBF7D;
+    padding: 50px;
+    margin: 20px
+
+}
+
+.button:hover {
+    background-color: #147350;
+    color: #F2F2F2;
+}
