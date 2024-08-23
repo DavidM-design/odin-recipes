@@ -1,21 +1,53 @@
-.title {
-    font-family: Helvetica;
-    font-size: 40px;
-    color: #0d0d0d
-
+html {
+    background-color: #F2F2F2;
 }
 
-.signature {
-    font-family: Helvetica;
-    font-size: 20px;
+body {
+    margin: 0;
+}
+
+/* Nav bars for site */ 
+.navbar {
+    background-color: #0BBF7D;
+    overflow: hidden;
+}
+
+.b {
+    background-color: #0BBF7D;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
     color: #0d0d0d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 30px;
+}
+
+.navbar h2{
+    float: left;
+    display: block;
+    color: #0d0d0d;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Helvetica;
+    font-size: 17px;
+}
+
+.navbar .navimg{
+    height: 40px;
+    float: right;
 }
 
 /* Index Image Page Links Styles*/
 .flex-container {
     height: 100%;
     padding: 0%;
-    margin: 0%;
+    margin: 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -86,6 +118,25 @@
     font-size: 20px;
 }
 
+/* Header and About for the main page */
 
+.header{
+    font-family: Helvetica;
+    text-align: center;
+}
 
+.tbox{
+    width: 800px;
+    border: none;
+    border-radius: 25px;
+    background: #0BBF7D;
+    padding: 50px;
+    margin: 10px;
+}
+
+.ptext{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 17px;
+}
 /* Color Palette: Light Green:#0BBF7D ; Dark Green: #147350 ; White: #F2F2F2 ; Grey: #595959; Black: #0D0D0D */
